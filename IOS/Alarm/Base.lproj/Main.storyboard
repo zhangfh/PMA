@@ -18,12 +18,51 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="TFz-Z9-qBx" kind="relationship" relationship="rootViewController" id="eUk-59-4Fq"/>
+                        <segue destination="RsL-4q-rMB" kind="relationship" relationship="rootViewController" id="SLI-ab-dxQ"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Twf-89-a8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1175" y="-248"/>
+            <point key="canvasLocation" x="-79" y="-250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xAM-ub-Ib6">
+            <objects>
+                <viewController id="RsL-4q-rMB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aOK-mR-lQu"/>
+                        <viewControllerLayoutGuide type="bottom" id="a9W-RT-fJV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sm4-OA-c2o">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Personal Medicine Assistance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jes-sq-KNL">
+                                <rect key="frame" x="74" y="99" width="227" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99948030710220337" green="0.084227047860622406" blue="0.0035500400699675083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vcv-u3-jcS">
+                                <rect key="frame" x="74" y="219" width="227" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="See My Meds Reminders List"/>
+                                <connections>
+                                    <segue destination="TFz-Z9-qBx" kind="show" id="Cc3-EA-stg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jes-sq-KNL" firstAttribute="centerX" secondItem="sm4-OA-c2o" secondAttribute="centerX" id="18N-AS-p0v"/>
+                            <constraint firstItem="Jes-sq-KNL" firstAttribute="top" secondItem="aOK-mR-lQu" secondAttribute="bottom" constant="35" id="hHf-oe-91a"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="xaK-yT-v4Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfx-dX-suV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="709.60000000000002" y="-249.62518740629687"/>
         </scene>
         <!--My Meds List-->
         <scene sceneID="1K5-R3-JmD">
