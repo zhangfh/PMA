@@ -127,7 +127,7 @@
                             <constraint firstItem="Sig-gf-rWO" firstAttribute="centerX" secondItem="rgy-dr-CTb" secondAttribute="centerX" id="wjC-e9-7jF"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="New Meds Reminder" id="eMP-mk-C6U">
+                    <navigationItem key="navigationItem" title="New Meds Reminder" largeTitleDisplayMode="always" id="eMP-mk-C6U">
                         <barButtonItem key="backBarButtonItem" title="Back" id="orB-8Q-5hX"/>
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="yrj-B4-lyA">
                             <connections>
@@ -154,7 +154,7 @@
             </objects>
             <point key="canvasLocation" x="3492" y="-348.57571214392806"/>
         </scene>
-        <!--Repeat-->
+        <!--On what days?-->
         <scene sceneID="IBS-M8-TGP">
             <objects>
                 <tableViewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="MmK-Sj-jZ1" customClass="WeekdaysViewController" customModule="Alarm_ios_swift" customModuleProvider="target" sceneMemberID="viewController">
@@ -292,7 +292,7 @@
                             <outlet property="delegate" destination="MmK-Sj-jZ1" id="HhJ-JK-1Dt"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Repeat" id="sRP-fD-WPW"/>
+                    <navigationItem key="navigationItem" title="On what days?" id="sRP-fD-WPW"/>
                     <connections>
                         <segue destination="LUr-aB-rih" kind="unwind" identifier="weekdaysUnwindSegue" unwindAction="unwindFromWeekdaysView:" id="wZi-qW-l9Y"/>
                     </connections>
