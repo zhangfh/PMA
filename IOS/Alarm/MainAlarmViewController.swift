@@ -9,7 +9,8 @@
 import UIKit
 
 class MainAlarmViewController: UITableViewController{
-   
+    
+    
     var alarmDelegate: AlarmApplicationDelegate = AppDelegate()
     var alarmScheduler: AlarmSchedulerDelegate = Scheduler()
     var alarmModel: Alarms = Alarms()
