@@ -76,9 +76,9 @@ class MainAlarmViewController: UITableViewController{
         cell!.selectionStyle = .none
         cell!.tag = indexPath.row
         let alarm: Alarm = alarmModel.alarms[indexPath.row]
-        let amAttr: [String : Any] = [NSFontAttributeName : UIFont.systemFont(ofSize: 20.0)]
+        let amAttr: [String : Any] = [NSFontAttributeName : UIFont.systemFont(ofSize: 30.0)]
         let str = NSMutableAttributedString(string: alarm.formattedTime, attributes: amAttr)
-        let timeAttr: [String : Any] = [NSFontAttributeName : UIFont.systemFont(ofSize: 45.0)]
+        let timeAttr: [String : Any] = [NSFontAttributeName : UIFont.systemFont(ofSize: 50.0)]
         str.addAttributes(timeAttr, range: NSMakeRange(0, str.length-2))
         cell!.textLabel?.attributedText = str
         cell!.detailTextLabel?.text = alarm.label
@@ -90,7 +90,8 @@ class MainAlarmViewController: UITableViewController{
         sw.tag = indexPath.row
         sw.addTarget(self, action: #selector(MainAlarmViewController.switchTapped(_:)), for: UIControlEvents.valueChanged)
         if alarm.enabled {
-            cell!.backgroundColor = UIColor.white
+//            cell!.backgroundColor = UIColor.white
+            cell!.backgroundColor = UIColor.red
             cell!.textLabel?.alpha = 1.0
             cell!.detailTextLabel?.alpha = 1.0
             sw.setOn(true, animated: false)
