@@ -90,7 +90,6 @@ class MainAlarmViewController: UITableViewController{
         sw.tag = indexPath.row
         sw.addTarget(self, action: #selector(MainAlarmViewController.switchTapped(_:)), for: UIControlEvents.valueChanged)
         if alarm.enabled {
-//            cell!.backgroundColor = UIColor.white
             cell!.backgroundColor = UIColor.red
             cell!.textLabel?.alpha = 1.0
             cell!.detailTextLabel?.alpha = 1.0
