@@ -29,6 +29,7 @@
 		9EED78941AA1E51700961BC2 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EED78931AA1E51700961BC2 /* AlarmModel.swift */; };
 		9EED789A1AA36C7900961BC2 /* AlarmAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */; };
 		9EEEC58C1BC641BF00459CF7 /* MainAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEEC58B1BC641BF00459CF7 /* MainAlarmViewController.swift */; };
+		E1BF22BC200FA39D00A9AAAC /* pills.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1BF22BB200FA39C00A9AAAC /* pills.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		9EED78931AA1E51700961BC2 /* AlarmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
 		9EED78991AA36C7900961BC2 /* AlarmAddEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmAddEditViewController.swift; sourceTree = "<group>"; };
 		9EEEC58B1BC641BF00459CF7 /* MainAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAlarmViewController.swift; sourceTree = "<group>"; };
+		E1BF22BB200FA39C00A9AAAC /* pills.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pills.jpg; path = AlarmTests/pills.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		77A857131E42FDF200971367 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				E1BF22BB200FA39C00A9AAAC /* pills.jpg */,
 				9E1F30721C49128000C66F79 /* Scheduler.swift */,
 				9EED78711AA0F03F00961BC2 /* AppDelegate.swift */,
 				7773A0F71E43276700811A1D /* Identifier.swift */,
@@ -300,6 +303,7 @@
 			files = (
 				9E92445B1C690A8D00724DFA /* tickle.mp3 in Resources */,
 				9EED78771AA0F03F00961BC2 /* Main.storyboard in Resources */,
+				E1BF22BC200FA39D00A9AAAC /* pills.jpg in Resources */,
 				9E3B062F1BB8347000453456 /* bell.mp3 in Resources */,
 				9EED787C1AA0F03F00961BC2 /* LaunchScreen.xib in Resources */,
 				9EED78791AA0F03F00961BC2 /* Images.xcassets in Resources */,
